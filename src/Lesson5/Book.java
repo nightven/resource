@@ -20,6 +20,8 @@ public class Book {
     private  double price;
     private String typeOfBinding;
 
+    public Book(){}
+
     public Book( String bookName, String[] author, String publishing, int yearOfBuilding, //создаем конструктор
                 int numberOfPages, double price, String typeOfBinding){                   //для новой книги
         this.id +=id;
