@@ -37,6 +37,9 @@ public class Confection {
 
 
     public Confection(){}
+    public String toString(){
+        return "Конфета:  "+name+", цена за кг:"+cost+"грн";
+    }
 
     public String getName() {
         return name;
