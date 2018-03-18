@@ -51,9 +51,9 @@ public class Podarok {
             if(sc.hasNext(y)) box.add(list.get(i));
 
             }
-            for (int j = 0; j < box.size(); j++) {
-                System.out.println(box.get(j).toString());
-            }
+//            for (int j = 0; j < box.size(); j++) {
+//                System.out.println(box.get(j).toString());
+//            }
             }
        }
 

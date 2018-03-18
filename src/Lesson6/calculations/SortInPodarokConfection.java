@@ -10,11 +10,11 @@ import java.util.stream.Collectors;
 
 public class SortInPodarokConfection {
 
-//    public double getWeightOfPdarok(ArrayList<Confection>box){
-//        ArrayList<Confection> weight = A
+   public double getWeightOfPdarok(ArrayList<Confection>box){
+       ArrayList<Confection> filter = box.stream().filter(a -> a.getWeight().contains(weight)).collect(Collectors.toCollection());
+//      тут типа через фор переберу и плюсону и верну вес подарка
 //
-//        return
-//    }
+    }
 //
 //    public ArrayList<Confection> getSortSugar
 
