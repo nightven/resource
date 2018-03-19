@@ -1,7 +1,7 @@
 package Lesson6.sladosti;
 
 
-public class Karamel extends Confection {
+public class Karamel extends Sweets {
     //бимбом 49,86грн\1000*0.25
     //апельсин 25г, 10г сахара
     // грейпфрут 26г  10.3г сахара

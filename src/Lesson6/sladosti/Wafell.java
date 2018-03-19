@@ -1,6 +1,6 @@
 package Lesson6.sladosti;
 
-public class Wafell extends Confection {
+public class Wafell extends Sweets {
     String taste;
         //Конфеты вафельные "Дюймовочка" 33г,12.3 г сахара 64грн
         //Конфеты глазурованные с вафельным корпусом Четыре мушкетера 38г, 14 г сахара 58.6грн

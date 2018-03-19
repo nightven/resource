@@ -1,6 +1,6 @@
 package Lesson6.sladosti;
 
-public class Chocolade extends Confection {
+public class Chocolade extends Sweets {
     String filling;
     //Шоколадные конфеты Крокант грильяж с измельченным миндалем 40г, 16г сахара 145грн
     //Конфеты ручной работы «Инжир в шоколаде» 35г, 12.5 г сахара 450грн

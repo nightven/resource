@@ -1,4 +1,4 @@
-package Lesson6.sladosti;
+package Lesson6.calculations;
 /*
 Создать консольное приложение, удовлетворяющее следующим требованиям:
 • Использовать возможности ООП: классы, наследование, полиморфизм, ин-
@@ -20,74 +20,10 @@ package Lesson6.sladosti;
  Найти конфету в подарке, соответствующую заданному диапазону содержания сахара.
  */
 
-public class Confection {
-    private	String name;
-    private double cost;
-    private double weight;
-    private  double sugar;
-    private String type;
+import Lesson6.podarok.Podarok;
 
-    public Confection(String name, double cost, double weight, double sugar){
-        this.name = name;
-        this.cost = cost;
-        this.weight = weight;
-        this.sugar = sugar;
+public class RunMain {
+    public static void main(String[] args) {
+        Podarok.createPodaroc();
     }
-
-
-
-    public Confection(){}
-    public String toString(){
-        return "Конфета:  "+name+", цена за кг:"+cost+"грн";
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public double getCost() {
-        return cost;
-    }
-
-    public double getWeight() {
-        return weight;
-    }
-
-    public String getType() {
-        return type;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setCost(double cost) {
-        this.cost = cost;
-    }
-
-    public void setWeight(double weight) {
-        this.weight = weight;
-    }
-
-    public void setType(String type) {
-        this.type = type;
-    }
-
-    public double getSugar() {
-        return sugar;
-    }
-
-    public void setSugar(double sugar) {
-        this.sugar = sugar;
-    }
-
-
-
 }
-
-
-
-
-
-
-
