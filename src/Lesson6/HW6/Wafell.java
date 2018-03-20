@@ -1,4 +1,4 @@
-package Lesson6.sladosti;
+package Lesson6.HW6;
 
 public class Wafell extends Sweets {
     String taste;

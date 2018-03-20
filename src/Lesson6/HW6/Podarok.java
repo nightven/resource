@@ -1,9 +1,4 @@
-package Lesson6.podarok;
-
-import Lesson6.sladosti.Chocolade;
-import Lesson6.sladosti.Sweets;
-import Lesson6.sladosti.Karamel;
-import Lesson6.sladosti.Wafell;
+package Lesson6.HW6;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -19,7 +14,7 @@ public class Podarok {
         //    System.out.println("В подарке больше всего сахара в конфете: ");
 
             System.out.println("Отсортируем их по стоимости");
-            SortByCost(Box);
+          //  getSortByCost(Box.toString());
         }
         /*
         Обьедененный метод который создает конфеты и на основе созданой колекции конфет отбирает кикие нужно ложить в
@@ -39,12 +34,13 @@ public class Podarok {
             list.add(karamel);
             list.add(karamel2);
             list.add(karamel3);
-            list.add(chocolade);
+            list.add(chocolade); //это как-то можно заменить на asList находил пример.... потерял ((
             list.add(chocolade2);
             list.add(chocolade3);
             list.add(wafell);
             list.add(wafell2);
             list.add(wafell3);
+
 
 //        for (int i = 0; i < list.size(); i++)
 //            System.out.println(list.get(i).toString());

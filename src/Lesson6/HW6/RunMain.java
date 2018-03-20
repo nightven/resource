@@ -1,4 +1,4 @@
-package Lesson6.calculations;
+package Lesson6.HW6;
 /*
 Создать консольное приложение, удовлетворяющее следующим требованиям:
 • Использовать возможности ООП: классы, наследование, полиморфизм, ин-
@@ -19,8 +19,6 @@ package Lesson6.calculations;
  4)Провести сортировку конфет в подарке на основе одного из параметров.
  Найти конфету в подарке, соответствующую заданному диапазону содержания сахара.
  */
-
-import Lesson6.podarok.Podarok;
 
 public class RunMain {
     public static void main(String[] args) {
