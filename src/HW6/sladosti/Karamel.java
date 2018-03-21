@@ -1,7 +1,8 @@
-package Lesson6.HW6;
+package HW6.sladosti;
 
+import HW6.sladosti.Sladosti;
 
-public class Karamel extends Sweets {
+public class Karamel extends Sladosti {
     //бимбом 49,86грн\1000*0.25
     //апельсин 25г, 10г сахара
     // грейпфрут 26г  10.3г сахара
@@ -12,6 +13,7 @@ public class Karamel extends Sweets {
         super(name, cost, weight, sugar);
     }
 
-
-
+    public String getFilling() {
+        return filling;
+    }
 }

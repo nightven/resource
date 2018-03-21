@@ -1,16 +1,14 @@
-package Lesson6.HW6;
+package HW6.sladosti;
 
-public class Sweets {
-    import java.io.PrintStream;
-
-    public class Sweets {
+public class Sladosti {
         private	String name;
         private double cost;
+        private double costOne;
         private double weight;
         private  double sugar;
         private String type;
 
-        public Sweets(String name, double cost, double weight, double sugar){
+        public Sladosti(String name, double cost, double weight, double sugar){
             this.name = name;
             this.cost = cost;
             this.weight = weight;
@@ -19,12 +17,15 @@ public class Sweets {
 
 
 
-        public Sweets(){}
+
         public String toString(){
-            return "Конфета:  "+name+", цена за кг:"+cost+"грн";
+            return "Конфета:  "+name+", цена за кг:"+cost+"грн.";
 
         }public String toString(int i){
-            return "Конфета:  "+name+", цена за конфету: " + cost+"грн"+"\n";
+            return "Конфета:  "+name+", цена за конфету: " + getCostOne()+"грн"+".\n";
+        }
+        public String toString(String sugar){
+            return "Конфета:  "+name+", количество сахара в конфете: " + getSugar()+".\n";
         }
 
         public String getName() {
@@ -32,8 +33,11 @@ public class Sweets {
         }
 
         public double getCost() {
-            cost = (weight/1000)*cost;
             return cost;
+        }
+
+        public double getCostOne() {
+        return weight/1000*cost;
         }
 
         public double getWeight() {
@@ -72,4 +76,4 @@ public class Sweets {
 
     }
 
-}
+
