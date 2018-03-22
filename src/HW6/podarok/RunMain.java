@@ -24,7 +24,7 @@ import HW6.podarok.Podarok;
 public class RunMain {
     public static void main(String[] args) {
         System.out.println("Привет мой милый друг. Хоть Новый Год уже прошел давно. Но подарок кто-то забыл забрать");
-        System.out.println("Но чтобы его забрать надо немножко потыкать клавишами =))\n");
+        System.out.println("Но чтобы его забрать надо немножко потыкать клавишами =))");
         Podarok.createPodarokBox();// в чем тут проблемма?
     }
 }
