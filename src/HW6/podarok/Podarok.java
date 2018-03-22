@@ -115,6 +115,5 @@ public class Podarok implements PodarokBox {
         return candy;
     }
 
-
 }
 
