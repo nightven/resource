@@ -1,4 +1,4 @@
-// Демонстрация терхмерного массива
+package Demo;// Демонстрация терхмерного массива
 
 public class ThreeDMatrix {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-//демонстрация двухмерного массива
+package Demo;//демонстрация двухмерного массива
 
 public class TwoDArray {
     public static void main(String[] args) {

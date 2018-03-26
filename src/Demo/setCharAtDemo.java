@@ -1,3 +1,5 @@
+package Demo;
+
 public class setCharAtDemo {
     // Демонстрация charAt() и setCharAt().
     public static void main(String args[]) {

@@ -1,3 +1,5 @@
+package Demo;
+
 public class getGharsDemo {
     //Использование метода getChar
     public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package Demo;
+
 public class SubstringCons {
     //Создание строки из подмножества символьного массива
     public static void main(String[] args) {

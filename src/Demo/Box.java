@@ -1,5 +1,7 @@
+package Demo;
+
 public class Box {
-    //Переопределение метода toString() для класса Box.
+    //Переопределение метода toString() для класса Demo.Box.
 
         double width;
         double height;
@@ -18,8 +20,8 @@ public class Box {
     class toStringDemo {
         public static void main(String args[]) {
             Box b = new Box(10, 12, 14);
-            String s = "Box b: " + b; // конкатенация объекта Box
-            System.out.println(b); // преобразование Box в строку
+            String s = "Demo.Box b: " + b; // конкатенация объекта Demo.Box
+            System.out.println(b); // преобразование Demo.Box в строку
             System.out.println(s);
         }
     }

@@ -1,3 +1,5 @@
+package Demo;
+
 public class indexOfDemo {
     //Демонстрация использования indexOf() и lastlndexOf().
     public static void main(String[] args) {

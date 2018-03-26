@@ -1,5 +1,5 @@
-/*Это еще один короткий пример
-  Назовите файл именем "Example2.java"
+package Demo;/*Это еще один короткий пример
+  Назовите файл именем "Demo.Example2.java"
  */
 
 public class Example2 {

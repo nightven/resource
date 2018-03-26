@@ -1,4 +1,4 @@
-package Demo;//усовершенствованая версия программы Array
+package Demo;//усовершенствованая версия программы Demo.Array
 
 public class AutoArray {
     public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package Demo;
+
 public class StringReplace {
     //Замена подстроки
     public static void main(String[] args) {

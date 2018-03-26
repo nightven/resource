@@ -1,4 +1,4 @@
-//повышение типов
+package Demo;//повышение типов
 
 public class Promote {
     public static void main(String[] args) {

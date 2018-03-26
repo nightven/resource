@@ -1,4 +1,4 @@
-//Демонстрация прменения оператора ++.
+package Demo;//Демонстрация прменения оператора ++.
 
 public class IncDec {
     public static void main(String[] args) {

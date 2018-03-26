@@ -1,3 +1,5 @@
+package Demo;
+
 public class SortSrting {
     //пузырьковая сортировака
     static String arr[] = {

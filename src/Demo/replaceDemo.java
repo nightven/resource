@@ -1,4 +1,4 @@
-//Демонстрация применения replace()
+package Demo;//Демонстрация применения replace()
 
 public class replaceDemo {
     public static void main(String[] args) {

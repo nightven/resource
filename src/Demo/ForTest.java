@@ -1,5 +1,5 @@
-/*демонстрация применения цикла for
-    назовите файл "ForTest.java"
+package Demo;/*демонстрация применения цикла for
+    назовите файл "Demo.ForTest.java"
  */
 
 public class ForTest {

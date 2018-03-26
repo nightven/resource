@@ -1,4 +1,4 @@
-//демонстрация времени существования переменной
+package Demo;//демонстрация времени существования переменной
 
 public class LifeTime {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-//Демонстраци оператора % (деление по модулю)
+package Demo;//Демонстраци оператора % (деление по модулю)
 
 public class Modulus{
     public static void main(String[] args) {
