@@ -18,38 +18,55 @@ package HW8;
  */
 
 
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.stream.*;
 
-public class FileListEx {
+public class FileListFilesExample {
 
-
-    public FileListEx(String p) {
-
-    }
-
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         String expansion = ".java";
-        int depth;
+        String p = "E:\\java_lessons\\src\\HW6";
+        int depth = 3;
         int countFiles = 0;
-        FileListEx directory = new FileListEx("E:\\java_lessons\\src\\HW6");
+        File directory = new File("E:\\java_lessons\\src\\HW6");
+        Path path = Paths.get(p);
 
-        //Path path = Paths.get("E:\\java_lessons\\src\\HW6");
-        getSumFileAtDir(directory);
-    }
+        System.out.println("в каталоге " + p + "  найдено " + getSumFileAtDir(directory,countFiles) + " файлов");
+        System.out.println();
 
-    //метод возвращает количество файлов с заданым расширением в указаной дериктории
-    public static void getSumFileAtDir(FileListEx directory){
-        if(directory.is)
-
+        getFile_java(p,depth,expansion);
 
     }
 
-//    //метод вернет файлы с расширением java. Задана глубина и путь откуда искать
-//    public File getFile_java(Path path, int depth){
-//        return
-//    }
+    //метод возвращает количество файлов  в указаной дериктории
+    public static int getSumFileAtDir(File directory, int countFiles){  // не могу никак обсчитать рекурсию(( в голову
+        for (File f: directory.listFiles()) {                           //ничего не лезет.4 часа уже мучаюсь с этим.
+            if(f.isDirectory()) {
+                getSumFileAtDir(f,countFiles);
+                continue;
+            }
+            else countFiles++;
 
-//    //метод выведет в консоль конкатинированую строку всех названий файлов
-//    public void FileNameConcat(){
-//
-//    }
+        }
+
+        return countFiles;
+    }
+
+//    //метод выведет конкатенированую строку с  файлы с расширением java. Задана глубина и путь откуда искать.
+    public static void  getFile_java(String p, int depth, String expansion ) throws IOException {
+        Path start = Paths.get(p);
+        try (Stream<Path> stream = Files.find(start, depth, (path, attr) ->{
+            return String.valueOf(path).endsWith(expansion);}))
+        {
+            String joined = stream.sorted().map(String::valueOf).collect(Collectors.joining(": "));
+            System.out.println("Найдены такие файлы: \n" + joined);
+        }
+    }
+
+
+
 }
