@@ -17,6 +17,38 @@ package HW8;
 
  */
 
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
 public class File {
 
+
+    public static void main(String[] args) {
+        String expansion = ".java";
+        int depth;
+        int countFiles = 0;
+
+        File folder = new File("E:\\\java_lessons\\\src\\\HW6");
+
+        //Path path = Paths.get("E:\\java_lessons\\src\\HW6");
+
+    }
+
+    //метод возвращает количество файлов с заданым расширением в указаной дериктории
+    public static void getSumFileAtDir(){
+
+        if(folder.)
+
+
+    }
+
+//    //метод вернет файлы с расширением java. Задана глубина и путь откуда искать
+//    public File getFile_java(Path path, int depth){
+//        return
+//    }
+
+//    //метод выведет в консоль конкатинированую строку всех названий файлов
+//    public void FileNameConcat(){
+//
+//    }
 }
