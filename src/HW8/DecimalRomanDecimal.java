@@ -1,6 +1,27 @@
 package HW8;
+/*
+Создать класс с двумя статическими методами перевода из десятичной системы счисления в римскую и обратно.
 
-public class ArabRoman {
+public static String decimal2Roman(int x) { ... }
+public static int roman2Decimal(String s) { ... }
+
+Рабочий диапазон методов - от 1 до 100 включительно.
+Работу методов продемонстрировать так:
+DECIMAL ==decimal2Roman==> ROMAN ==roman2Decimal==> DECIMAL
+1 ====> I ====> 1
+2 ====> II ====> 2
+3 ====> III ====> 3
+4 ====> IV ====> 4
+5 ====> V ====> 5
+...
+94 ====> XCIV ====> 94
+95 ====> XCV ====> 95
+96 ====> XCVI ====> 96
+97 ====> XCVII ====> 97
+
+ */
+
+public class DecimalRomanDecimal {
 
     public static String[] arrayArab = {"1", "4", "5", "9", "10", "40", "50", "90", "100", "400", "500", "900", "1000"};
     public static String[] arrayRoman = {"I","IV","V","IX","X","XL","L","XC","C","CD","D","CM","M"};
