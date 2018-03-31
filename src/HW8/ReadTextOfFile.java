@@ -5,6 +5,8 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.nio.file.Paths;
+import java.util.Map;
+import java.util.TreeMap;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
@@ -39,8 +41,8 @@ public class ReadTextOfFile {
     }
 
     public static void LettersCount(String s){
-        Stream.of(s.replaceAll(" .,!-?", "").split(""))
+         Stream.of(s.replaceAll("[\\s\\.,!-\\?]", "").split(""))
                 .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()))
-                .forEach((letter, count) -> System.out.println(letter + " " + count));
+                .forEach((letter, count)-> System.out.println(letter + " " + count));
     }
 }
