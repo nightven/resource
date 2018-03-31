@@ -50,8 +50,8 @@ public class TextEditor {
         System.out.println("В даном файле: " + getSumChar(pathS)+ " символов"+"\n");
 
 
-//        System.out.println("Строка с найбольшим количеством гласных: ");
-//        getStringVowels(path);
+        System.out.println("Строка с найбольшим количеством гласных: ");
+        getStringVowels(pathS);
 
         getCountWords(file);
     }
@@ -85,27 +85,27 @@ public class TextEditor {
     }
 
     //медод подсчитает строку в которой больше всего гласных
-//    public static void getStringVowels(Path path) throws IOException {
-//        int vocalCounter = 0; //количество гласных в строке
-//        ArrayList<Integer> num = new ArrayList<>(); //сюда запихиваю vocalCounter в каждой строке
-//                                                    // надо разбираться тутт((
-//        try(Stream<String> lines = Files.lines(path)) {
-//
-//            lines.forEach(String lines : lines){
-//                String text = ().toLowerCase().replaceAll("\\s", "");
-//
-//
-//                Pattern p = Pattern.compile("(?iu)[аеёиоуыэюяіїє]");
-//
-//                Matcher m = p.matcher(text);
-//                while (m.find()) {
-//                    vocalCounter++;
-//                }
-//            }
-//
-//
-//            }
-//    }
+    public static void getStringVowels(String pathS) throws IOException {
+        try(BufferedReader br = new BufferedReader(new FileReader(pathS))) {
+            String maxVwels = null;
+            int counnt = 0;
+            int stoka = 0;
+            String str;
+            Pattern p = Pattern.compile("[аеёиоуыэюяіїє]");
+            while ((str = br.readLine())!=null){
+                Matcher m = p.matcher(str);
+                    while (m.find()){
+                        counnt++;                       //работает вродь верно, но вот чет количество гласных не верное выдает
+                    }                                   // не подскажешь где ошибка?
+                    if(counnt > stoka){
+                        maxVwels = str.toLowerCase();
+                        stoka = counnt;
+                    }
+            }
+            System.out.println(maxVwels);
+          //  System.out.println(stoka);
+        }
+    }
   //        метод подсчитывает количество слов в файле
     public static void getCountWords(File file) throws IOException {
         long l = Files.lines(Paths.get(String.valueOf(file)))
