@@ -11,7 +11,10 @@ import java.util.Iterator;
 public class DefaultMyList implements MyList {
     ArrayList<Object> myList = new ArrayList<>();
 
-
+    @Override
+    public Iterator<Object> iterator() {
+        return new IteratorImpl();
+    }
 
     @Override
     public void addList(Object e) {

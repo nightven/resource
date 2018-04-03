@@ -1,6 +1,8 @@
 package HW9;
 
+import java.sql.SQLOutput;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class Demo extends DefaultMyList {
@@ -35,7 +37,7 @@ public class Demo extends DefaultMyList {
         defMy.addList(kesh);
         defMy.addList(kesh2);
         defMy.addList(job);
-        List<Object>MyList = new ArrayList<>();// это
+        List<Object> MyList = new ArrayList<>();// это
         MyList.addAll(defMy.myList);           //для проследней проверки
 
         System.out.println("Вот наша колекция \n" + defMy.myList);
@@ -46,9 +48,9 @@ public class Demo extends DefaultMyList {
         System.out.println(defMy.myList);
 
         System.out.println("\nЗанесем обьекты списка в массив");
-         c = defMy.listToArray();
-        for (Object o:c
-             ) {
+        c = defMy.listToArray();
+        for (Object o : c
+                ) {
             System.out.println(o);
         }
 
@@ -56,17 +58,40 @@ public class Demo extends DefaultMyList {
 
         System.out.println("\nПроверим, есть ли в списке обьект kash2: " + defMy.containsList(kesh2));
 
-        System.out.println("\nПроверим, все ли элементы с созданой колекции имеються в текущей");
+//        System.out.println("\nПроверим, все ли элементы с созданой колекции имеються в текущей");
 
         // System.out.println(defMy.containsAllList();  не могу понять как тут вызввать??
 
-        System.out.println("\nСотрем всю коллекцию. ");
-        defMy.clearList();
-        System.out.println("проверим пустая ли колекция "+ defMy.myList.isEmpty());
+//        System.out.println("\nСотрем всю коллекцию. ");
+//        defMy.clearList();
+//        System.out.println("проверим пустая ли колекция "+ defMy.myList.isEmpty());
+
+        System.out.println("\nИспользование итератора.\n");
+        Iterator<Object> iterator = defMy.myList.iterator();
+
+        System.out.println("Вызовем 1й елемент через итератор");
+        System.out.println(iterator.next());
+
+        System.out.println("\nТеперь применим метод ремув. Если не был до этого вызван оператор next() вылетит ошибка");
+        iterator.remove();
+
+        System.out.println("Посмотрим, изменилась ли колекция. Вывод через while");
+        while (iterator.hasNext()) System.out.println(iterator.next());
+        // iterator= defMy.myList.iterator();
+
+        System.out.println("\nПеребор оставшихся елементов через цикл foreath");
+
+        for (Object o: defMy.myList
+             ) {
+            System.out.println(o);
         }
+
+    }
 
         public String toString(){
         return "Object Demo: имя "+getName()+", возраст "+getAge()+""; //как сюда интежеры со стрингом запихнуть?
         }
+
+
 
 }
