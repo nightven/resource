@@ -1,6 +1,8 @@
 package HW9;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.Iterator;
 
 /*
@@ -29,7 +31,7 @@ public class DefaultMyList implements MyList {
 
     @Override
     public boolean containsAllList(MyList c) {
-        return myList.contains(c);
+        return myList.containsAll((Collection<?>) c);
     }
 
     @Override
