@@ -60,7 +60,7 @@ public class Demo extends DefaultMyList {
 
 //        System.out.println("\nПроверим, все ли элементы с созданой колекции имеються в текущей");
 
-         System.out.println(defMy.containsAllList();  //не могу понять как тут вызввать??
+//         System.out.println(defMy.containsAllList();  //не могу понять как тут вызввать??
 
 //        System.out.println("\nСотрем всю коллекцию. ");
 //        defMy.clearList();
