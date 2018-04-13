@@ -2,8 +2,6 @@ package HW12;
 
 import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.function.Consumer;
-import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class IterPattern  {
