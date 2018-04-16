@@ -16,3 +16,6 @@ bin/
 log/
 target/
 build/
+
+# src/Demo/
+# *.class
