@@ -1,4 +1,4 @@
-package Lesson2;
+package HW2;
 
 import org.junit.Test;
 

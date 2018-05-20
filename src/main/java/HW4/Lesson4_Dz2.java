@@ -1,4 +1,4 @@
-package Lesson4;
+package HW4;
 
 import java.util.Arrays;
 import java.util.Scanner;

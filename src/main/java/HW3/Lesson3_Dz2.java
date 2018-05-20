@@ -1,4 +1,4 @@
-package lesson3;
+package HW3;
     // Вывести только простые числа от 1 до 100
 
 public class Lesson3_Dz2 {

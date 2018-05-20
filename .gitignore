@@ -1,3 +1,24 @@
 
 *.class
 *.class
+.idea/compiler.xml
+.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml
+.idea/libraries/Maven__commons_pool_commons_pool_1_5_4.xml
+.idea/libraries/Maven__junit_junit_4_12.xml
+.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml
+.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml
+.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml
+.idea/libraries/Maven__org_mockito_mockito_all_1_9_5.xml
+.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml
+.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml
+.idea/libraries/Maven__org_powermock_powermock_api_mockito_1_7_4.xml
+.idea/libraries/Maven__org_powermock_powermock_api_mockito_common_1_7_4.xml
+.idea/libraries/Maven__org_powermock_powermock_api_support_1_7_4.xml
+.idea/libraries/Maven__org_powermock_powermock_core_1_7_4.xml
+.idea/libraries/Maven__org_powermock_powermock_reflect_1_7_4.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/workspace.xml
+java_lessons.iml
+.idea/workspace.xml

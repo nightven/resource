@@ -1,4 +1,4 @@
-package lesson3;
+package HW3;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;

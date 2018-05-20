@@ -1,4 +1,4 @@
-package Lesson2;
+package HW2;
 //Программа должна вывести длину окружности. Радиус задается пользователем с консоли.
 
 import java.util.Scanner;
