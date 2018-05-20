@@ -1,5 +1,16 @@
+<<<<<<< HEAD:src/main/java/Demo/UseTrim.java
 package Demo;
 
+=======
+
+
+
+package Demo;
+
+import kotlin.jvm.Throws;
+
+
+>>>>>>> master:src/Demo/UseTrim.java
 import java.io.*;
 
 public class UseTrim {
