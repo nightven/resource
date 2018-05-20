@@ -1,4 +1,4 @@
-//Применение сдвига влево в качестве быстрого метода умножения на 2.
+package Demo;//Применение сдвига влево в качестве быстрого метода умножения на 2.
 
 public class MultByTwo {
     public static void main(String[] args) {

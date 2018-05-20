@@ -1,4 +1,4 @@
-//инициализация двухмерного масива
+package Demo;//инициализация двухмерного масива
 
 public class Matrix {
     public static void main(String[] args) {

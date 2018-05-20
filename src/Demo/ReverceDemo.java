@@ -1,3 +1,5 @@
+package Demo;
+
 public class ReverceDemo {
     //Применение reverse() для обращения порядка StringBuffer.
     public static void main(String args[]) {

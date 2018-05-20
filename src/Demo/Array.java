@@ -1,4 +1,4 @@
-//демонстрация одномерного масива
+package Demo;//демонстрация одномерного масива
 
 public class Array {
     public static void main(String[] args) {

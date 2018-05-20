@@ -1,4 +1,4 @@
-//демонстрация области видимости блока
+package Demo;//демонстрация области видимости блока
 
 public class Scope {
     public static void main(String[] args) {

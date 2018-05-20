@@ -1,3 +1,5 @@
+package Demo;
+
 public class MakeString {
     //Создать один объект String из другого,
     public static void main(String[] args) {

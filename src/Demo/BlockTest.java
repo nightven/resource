@@ -1,5 +1,7 @@
+package Demo;
+
 /*демострация использования блока кода
-    назовиде файл именем "BlockTest.java"
+    назовиде файл именем "Demo.BlockTest.java"
  */
 public class BlockTest {
     public static void main(String[] args) {

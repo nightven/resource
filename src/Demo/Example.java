@@ -1,5 +1,5 @@
-/*Это простая программа Java.
-  Назовите этот файл "Example.java"
+package Demo;/*Это простая программа Java.
+  Назовите этот файл "Demo.Example.java"
  */
 
 public class Example {

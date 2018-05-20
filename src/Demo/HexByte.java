@@ -1,4 +1,4 @@
-//Маскирование дополнительных знаковых разрядов.
+package Demo;//Маскирование дополнительных знаковых разрядов.
 
 public class HexByte {
     public static void main(String[] args) {

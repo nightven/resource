@@ -1,5 +1,7 @@
+package Demo;
+
 /*демонстрация применения оператора if
-   назовите файл "IfSample.java"
+   назовите файл "Demo.IfSample.java"
  */
 public class IfSample {
     public static void main(String[] args) {

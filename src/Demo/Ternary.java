@@ -1,4 +1,4 @@
-//Демонстрация использоввания оператора ?.
+package Demo;//Демонстрация использоввания оператора ?.
 
 public class Ternary {
     public static void main(String[] args) {

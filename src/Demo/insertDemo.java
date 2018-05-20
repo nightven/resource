@@ -1,4 +1,4 @@
-//Демонстрация применения insert().
+package Demo;//Демонстрация применения insert().
 
 public class insertDemo {
     public static void main(String args[]) {

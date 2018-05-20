@@ -4,18 +4,29 @@
 .settings/
 bin/
 
+
+
 # Intellij
 .idea/
 *.iml
 *.iws
 
+
+
 # Mac
 .DS_Store
+
+
 
 # Maven
 log/
 target/
 build/
 
+
 # src/Demo/
 # *.class
+
+
+# out/production/java_lessons/*.class
+

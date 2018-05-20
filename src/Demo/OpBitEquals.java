@@ -1,3 +1,5 @@
+package Demo;
+
 //
 public class OpBitEquals {
     public static void main(String[] args) {

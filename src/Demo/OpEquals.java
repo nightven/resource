@@ -1,4 +1,4 @@
-//Демонстрация применения нескольких операторов с присваивание
+package Demo;//Демонстрация применения нескольких операторов с присваивание
 
 public class OpEquals {
     public static void main(String[] args) {
