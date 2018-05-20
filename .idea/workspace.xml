@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6d74b525-6492-498c-ab17-b558207a32e2" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sql.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HW13/ThreadExampleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2/D_Z2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2/D_Z3Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Andrey" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Array.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/BlockTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Box.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Demo/Area.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Demo/AutoArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Demo/Average.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Demo/BRReadLines.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Demo/BRReder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Demo/BasicMath.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Demo/BitLigic2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Demo/BitLogic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Demo/BoolTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Demo/ByteShift.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Demo/ByteUShift.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Demo/CharDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Demo/CharDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Demo/Conversion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Demo/CopyFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Demo/CopyFile2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Demo/CurrentThreadDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Demo/DeleteDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Demo/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Demo/DemoJoin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Demo/Demo_Math_random.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Demo/DinInit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Demo/EqualsNotEqualTo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Demo/ExtendThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Demo/MultiThreadDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Demo/NewThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Demo/NewThread1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Demo/NewThread3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Demo/NewThreed4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Demo/SnowFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Demo/SnowFile2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Demo/ThreadDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Demo/TinyEdit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Demo/appendDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Demo/equalsDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Demo/threedSynhronized/Caller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Demo/threedSynhronized/Callme.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Demo/threedSynhronized/Synchl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Example.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Example2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/ForTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Gtoup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/HW12/CopyOnWriteArrayListExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/HW12/IterPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/HW12/score/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/HW12/score/ScoreExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/HW13/ThreadExample$DemoThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/HW13/ThreadExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/HW6/podarok/IPodarok.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/HW6/podarok/Podarok.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/HW6/podarok/RunMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/HW6/podarok/SortBySugar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/HW6/sladosti/Chocolade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/HW6/sladosti/Karamel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/HW6/sladosti/Sladosti.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/HW6/sladosti/Wafell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/HW8/DecimalRomanDecimal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/HW8/FileListFilesExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/HW8/FormaterPi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/HW8/HoursToGradus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/HW8/MyQuickSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/HW8/ReadTextOfFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/HW8/TestGlava8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/HW8/TextEditor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/HW8/ToUpOneChar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/HW9/DefaultListIterable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/HW9/DefaultMyList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/HW9/IteratorImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/HW9/LRUCeche$LRUNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/HW9/LRUCeche.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/HW9/MyList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/HexByte.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/IfSample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/IncDec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Lesson2/D_Z1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Lesson2/D_Z2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Lesson2/D_Z3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Lesson4/Lesson4_Dz1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Lesson4/Lesson4_Dz2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Lesson4/lesson4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Lesson5/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Lesson5/Library.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/LifeTime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Light.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/MakeString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Matrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Modulus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/MultByTwo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/OpBitEquals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/OpEquals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Promote.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/ReverceDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Scope.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/SortSrting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/StringReplace.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/StringToInt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/SubstringCons.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/Ternary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/ThreeDMatrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/TwoDAgain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/TwoDArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/UseTrim.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/getGharsDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/indexOfDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/insertDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/lesson3/Lesson3_Dz1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/lesson3/Lesson3_Dz2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/lesson3/Lesson3_Dz3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/lesson3/Lesson3_Dz5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/lesson3/Lesson3_Dz_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/lesson3/lesson3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/lesson3/lesson3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/replaceDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/setCharAtDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_lessons/toStringDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/Area.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/Array.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/AutoArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/Average.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/BRReadLines.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/BRReder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/BasicMath.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/BitLigic2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/BitLogic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/BlockTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/BoolTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/Box.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/ByteShift.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/ByteUShift.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/CharDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/CharDemo2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/Conversion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/CopyFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/CopyFile2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/CurrentThreadDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/DeleteDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/Demo_Math_random.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/DinInit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/EqualsNotEqualTo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/Example2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/ForTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/Gtoup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/HexByte.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/IfSample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/IncDec.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/LifeTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/Light.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/MakeString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/Matrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/Modulus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/MultByTwo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/NewThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/NewThread1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/NewThread3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/NewThreed4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/OpBitEquals.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/OpEquals.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/Promote.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/ReverceDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/Scope.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/SnowFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/SnowFile2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/SortSrting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/StringReplace.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/StringToInt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/SubstringCons.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/Ternary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/ThreeDMatrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/TinyEdit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/TwoDAgain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/TwoDArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/UseTrim.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/appendDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/equalsDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/getGharsDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/indexOfDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/insertDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/replaceDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/setCharAtDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/threedSynhronized/Callme.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW12/CopyOnWriteArrayListExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW12/IterPattern.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW12/score/ScoreExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW13/Spam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW13/ThreadExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW6/podarok/IPodarok.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW6/podarok/Podarok.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW6/podarok/RunMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW6/podarok/SortBySugar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW6/sladosti/Chocolade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW6/sladosti/Karamel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW6/sladosti/Sladosti.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW6/sladosti/Wafell.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW8/DecimalRomanDecimal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW8/FileListFilesExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW8/FormaterPi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW8/HoursToGradus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW8/MyQuickSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW8/ReadTextOfFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW8/TestGlava8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW8/TextEditor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW8/ToUpOneChar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW9/DefaultMyList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW9/IteratorImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW9/LRUCeche.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW9/MyList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson2/D_Z1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson2/D_Z2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson2/D_Z3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson4/Lesson4_Dz1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson4/Lesson4_Dz2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson4/lesson4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson5/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson5/Library.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson3/Lesson3_Dz1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson3/Lesson3_Dz2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson3/Lesson3_Dz3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson3/Lesson3_Dz5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson3/Lesson3_Dz_4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson3/lesson3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HW13/MaxValueForMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW13/MaxValueForMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HW13/ThreadExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW13/ThreadExample.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="HW12" />
+      </map>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="java_lessons" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="java_lessons" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="java_lessons" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_lessons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_lessons" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_lessons" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_lessons" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_lessons" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_lessons" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_lessons" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_lessons" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_lessons" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6d74b525-6492-498c-ab17-b558207a32e2" name="Default" comment="" />
+      <created>1525605060478</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1525605060478</updated>
+      <workItem from="1525605070227" duration="65000" />
+      <workItem from="1525605270052" duration="478000" />
+      <workItem from="1526815177806" duration="241000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="784000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.3290469" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26172465" />
+      <window_info id="Web" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Demo/com/jdbc/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding>
+            <marker date="1525471216303" expanded="true" signature="1291:1310" ph="select * fro... users" />
+            <marker date="1525471216303" expanded="true" signature="1721:1759" ph="select * fro... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Demo/com/jdbc/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1525471216303" expanded="true" signature="1291:1310" ph="select * fro... users" />
+            <marker date="1525471216303" expanded="true" signature="1721:1759" ph="select * fro... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Demo/com/jdbc/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding>
+            <marker date="1525471216303" expanded="true" signature="1291:1310" ph="select * fro... users" />
+            <marker date="1525471216303" expanded="true" signature="1721:1759" ph="select * fro... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>9.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
