@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d74b525-6492-498c-ab17-b558207a32e2" name="Default" comment="" />
+    <list default="true" id="6d74b525-6492-498c-ab17-b558207a32e2" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Andrey" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_lessons.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson2/D_Z1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW2/D_Z1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson2/D_Z2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW2/D_Z2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson2/D_Z3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW2/D_Z3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson4/Lesson4_Dz1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW4/Lesson4_Dz1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson4/Lesson4_Dz2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW4/Lesson4_Dz2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson4/lesson4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW4/lesson4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson5/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW5/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson5/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW5/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson3/Lesson3_Dz1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW3/Lesson3_Dz1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson3/Lesson3_Dz2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW3/Lesson3_Dz2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson3/Lesson3_Dz3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW3/Lesson3_Dz3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson3/Lesson3_Dz5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW3/Lesson3_Dz5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson3/Lesson3_Dz_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW3/Lesson3_Dz_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson3/lesson3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW3/lesson3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2/D_Z2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HW2/D_Z2Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2/D_Z3Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HW2/D_Z3Test.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,14 +46,11 @@
     <expand />
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="java_lessons" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="appendDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Demo/appendDemo.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -83,11 +101,13 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <showMembers ProjectPane="true" />
+      <abbreviatePackageNames ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -117,13 +137,20 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\java_lessons\src\main\java" />
+      <recent name="E:\java_lessons\src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -196,11 +223,12 @@
       <workItem from="1525605070227" duration="65000" />
       <workItem from="1525605270052" duration="478000" />
       <workItem from="1526815177806" duration="241000" />
+      <workItem from="1526821460170" duration="283000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1209000" />
+    <option name="totallyTimeSpent" value="1802000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -210,15 +238,15 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50075644" side_tool="true" weight="0.32838285" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.3290469" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49924356" weight="0.32838285" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49924356" visible="true" weight="0.32838285" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26928896" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2655068" />
       <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -226,79 +254,113 @@
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" id="Palette" order="3" />
       <window_info id="Web" order="3" side_tool="true" />
-      <window_info id="Designer" order="2" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26172465" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.3290469" />
-      <window_info id="Favorites" order="2" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Demo/com/jdbc/Main.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Demo/com/jdbc/Main.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Demo/com/jdbc/Main.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Demo/com/jdbc/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Demo/com/jdbc/Main.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Demo/com/jdbc/Main.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Demo/com/jdbc/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/Demo/UseTrim.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="314">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Demo/appendDemo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Demo/com/jdbc/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Demo/com/jdbc/Main.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Demo/com/jdbc/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Demo/com/jdbc/Main.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Demo/com/jdbc/Main.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Demo/com/jdbc/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Demo/com/jdbc/Main.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Demo/com/jdbc/Main.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Demo/com/jdbc/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/Demo/UseTrim.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Demo/com/jdbc/Main.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -317,9 +379,25 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Demo/com/jdbc/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/Demo/appendDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Demo/com/jdbc/Main.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Demo/com/jdbc/Main.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Demo/com/jdbc/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Demo/com/jdbc/Main.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Demo/com/jdbc/Main.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Demo/com/jdbc/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/Demo/appendDemo.java" />
   </component>
   <component name="masterDetails">
     <states>
