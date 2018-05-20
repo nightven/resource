@@ -1,4 +1,7 @@
 package HW13;
+/*
+
+ */
 
 public class ThreadExample {
     public static void main(String[] args) {
