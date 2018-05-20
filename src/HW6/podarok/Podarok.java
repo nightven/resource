@@ -115,6 +115,5 @@ public class Podarok implements IPodarok {
         return candy;
     }
 
-
 }
 
