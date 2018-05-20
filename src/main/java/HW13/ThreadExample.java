@@ -6,9 +6,8 @@ package HW13;
 public class ThreadExample {
     public static void main(String[] args) {
         test1();
-        test2();
+//        test2();
     }
-
     private static void test2() {
 
         Runnable runnable = () -> {
@@ -32,7 +31,6 @@ public class ThreadExample {
     public static void test1(){
         new DemoThread().start();
     }
-
     static class DemoThread extends Thread{
         @Override
         public void run() {
